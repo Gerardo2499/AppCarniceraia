@@ -1,4 +1,4 @@
-runtime: php81 # Replace with php74 to use PHP 7.4
+runtime: php74 # Replace with php74 to use PHP 7.4
 
 runtime_config:
 document_root: .
@@ -17,5 +17,3 @@ handlers:
 - url: .*
   script: auto
   
-  entrypoint:
-  serve index.php
